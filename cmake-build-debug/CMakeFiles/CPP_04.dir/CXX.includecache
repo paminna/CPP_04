@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/regina/Desktop/CPP_04/ex00/Animal.hpp
+iostream
+-
+
+/Users/regina/Desktop/CPP_04/ex00/Cat.cpp
+Cat.hpp
+/Users/regina/Desktop/CPP_04/ex00/Cat.hpp
+
+/Users/regina/Desktop/CPP_04/ex00/Cat.hpp
+Animal.hpp
+/Users/regina/Desktop/CPP_04/ex00/Animal.hpp
+
+/Users/regina/Desktop/CPP_04/ex00/Dog.hpp
+Animal.hpp
+/Users/regina/Desktop/CPP_04/ex00/Animal.hpp
+iostream
+-
+
+/Users/regina/Desktop/CPP_04/ex00/main.cpp
+Animal.hpp
+/Users/regina/Desktop/CPP_04/ex00/Animal.hpp
+Cat.hpp
+/Users/regina/Desktop/CPP_04/ex00/Cat.hpp
+Dog.hpp
+/Users/regina/Desktop/CPP_04/ex00/Dog.hpp
+
