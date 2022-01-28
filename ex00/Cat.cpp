@@ -22,7 +22,7 @@ Cat::~Cat()
 
 Cat &Cat::operator=(const Cat &cat) {
     this->_type = cat.getType();
-    return cat;
+    return *this;
 }
 
 void Cat::makeSound() const{
